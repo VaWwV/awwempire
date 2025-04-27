@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Голосовой помощник</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Голосовой помощник</h1>
+        </header>
+        
+        <main>
+            <div class="status-panel">
+                <h2>Статус системы</h2>
+                <div class="status-indicator active" id="voiceStatus">
+                    Голосовое управление: <span>Активно</span>
+                </div>
+                <div class="status-indicator" id="browserStatus">
+                    Браузер: <span>Не запущен</span>
+                </div>
+            </div>
+
+            <div class="command-list">
+                <h2>Доступные команды</h2>
+                <ul>
+                    <li>"макарчик запускай" - запуск браузера</li>
+                    <li>"макарчик закрывай" - закрытие браузера</li>
+                    <li>"открой youtube" - открытие YouTube</li>
+                    <li>"помощь" - список всех команд</li>
+                </ul>
+            </div>
+
+            <div class="log-panel">
+                <h2>Лог событий</h2>
+                <div id="logContainer"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

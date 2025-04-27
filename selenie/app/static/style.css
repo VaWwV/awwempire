@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.status-panel {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.status {
+    padding: 10px;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
+
+.inactive {
+    color: red;
+    font-weight: bold;
+}
+
+.command-log {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+#log-content {
+    padding: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+#connection-status {
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#command-history {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-height: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.command-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-family: monospace;
+}
+
+.command-item:first-child {
+    border-top: 1px solid #eee;
+}
+
+.help-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    color: #444;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.command-item {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    #command-history {
+        min-height: 300px;
+    }
+} 

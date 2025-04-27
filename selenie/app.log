@@ -1,0 +1,320 @@
+2025-03-20 10:27:38,175 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 10:27:38,176 - __main__ - ERROR - Error in voice recognition: CommandProcessor.__init__() missing 2 required positional arguments: 'youtube_controller' and 'socketio'
+2025-03-20 10:27:38,176 - root - INFO - Voice recognition stopped
+2025-03-20 10:27:38,176 - __main__ - ERROR - Error during cleanup: 'BrowserManager' object has no attribute 'close'
+2025-03-20 10:27:38,192 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-03-20 10:31:38,781 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-03-20 10:31:41,864 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 10:31:41,866 - __main__ - ERROR - Error in voice recognition: CommandProcessor.__init__() missing 2 required positional arguments: 'youtube_controller' and 'socketio'
+2025-03-20 10:31:41,866 - root - INFO - Stopping voice recognition...
+2025-03-20 10:31:41,867 - root - INFO - Voice recognition stopped
+2025-03-20 10:31:41,869 - __main__ - ERROR - Error during cleanup: 'BrowserManager' object has no attribute 'close'
+project_root/
+в”њв”Ђв”Ђ run.py                    # Main run file
+в”њв”Ђв”Ђ app/
+в”‚   в”њв”Ђв”Ђ __init__.py
+в”‚   в”њв”Ђв”Ђ browser_manager.py    # Browser management
+в”‚   в”њв”Ђв”Ђ command_processor.py  # Voice command processing
+в”‚   в”њв”Ђв”Ђ voice_recognition.py  # Voice recognition
+в”‚   в””в”Ђв”Ђ youtube_controller.py # YouTube control
+в””в”Ђв”Ђ app.log                   # Log file2025-03-20 11:01:54,236 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:01:54,237 - root - INFO - Initializing microphone...
+2025-03-20 11:01:54,237 - root - INFO - Voice recognition started
+2025-03-20 11:02:16,604 - root - INFO - Microphone initialized successfully
+2025-03-20 11:02:16,758 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:02:17,271 - root - INFO - Ready to listen
+2025-03-20 11:02:24,153 - root - INFO - Processing audio...
+2025-03-20 11:02:27,892 - root - INFO - Original: Включи YouTube
+2025-03-20 11:02:27,924 - root - INFO - Processed: включи youtube
+2025-03-20 11:02:27,955 - app.command_processor - INFO - Processing command: включи youtube
+2025-03-20 11:02:27,986 - app.command_processor - WARNING - Unknown command: включи youtube
+2025-03-20 11:02:34,072 - root - INFO - Processing audio...
+2025-03-20 11:02:36,823 - root - INFO - Original: Открой YouTube
+2025-03-20 11:02:36,854 - root - INFO - Processed: открой youtube
+2025-03-20 11:02:36,886 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:02:36,917 - WDM - INFO - ====== WebDriver manager ======
+2025-03-20 11:02:39,828 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:02:41,022 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-03-20 11:02:41,848 - WDM - INFO - Driver downloading response is 200
+2025-03-20 11:03:13,923 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:03:20,058 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:03:22,473 - WDM - INFO - Driver has been saved in cache [C:\Users\Григорий\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-03-20 11:03:25,206 - app.browser_manager - ERROR - Error opening browser: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00DAA813+48355]
+	(No symbol) [0x00D3C4B1]
+	(No symbol) [0x00C45358]
+	(No symbol) [0x00C61A9E]
+	(No symbol) [0x00C60579]
+	(No symbol) [0x00C90C55]
+	(No symbol) [0x00C9093C]
+	(No symbol) [0x00C8A536]
+	(No symbol) [0x00C682DC]
+	(No symbol) [0x00C693DD]
+	GetHandleVerifier [0x0100AABD+2539405]
+	GetHandleVerifier [0x0104A78F+2800735]
+	GetHandleVerifier [0x0104456C+2775612]
+	GetHandleVerifier [0x00E351E0+616112]
+	(No symbol) [0x00D45F8C]
+	(No symbol) [0x00D42328]
+	(No symbol) [0x00D4240B]
+	(No symbol) [0x00D34FF7]
+	BaseThreadInitThunk [0x755AFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x770480CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7704809E+238]
+
+2025-03-20 11:08:43,360 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:08:43,361 - root - INFO - Initializing microphone...
+2025-03-20 11:08:43,362 - root - INFO - Voice recognition started
+2025-03-20 11:09:07,102 - root - INFO - Microphone initialized successfully
+2025-03-20 11:09:07,239 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:09:07,749 - root - INFO - Ready to listen
+2025-03-20 11:09:22,925 - root - INFO - Processing audio...
+2025-03-20 11:09:25,624 - root - INFO - Original: Открой YouTube
+2025-03-20 11:09:25,655 - root - INFO - Processed: открой youtube
+2025-03-20 11:09:25,686 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:09:25,717 - WDM - INFO - ====== WebDriver manager ======
+2025-03-20 11:09:28,902 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:09:32,641 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-03-20 11:09:33,507 - WDM - INFO - Driver downloading response is 200
+2025-03-20 11:09:56,386 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:10:01,522 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:10:04,068 - WDM - INFO - Driver has been saved in cache [C:\Users\Григорий\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-03-20 11:10:06,846 - app.browser_manager - ERROR - Error opening browser: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00A8A813+48355]
+	(No symbol) [0x00A1C4B1]
+	(No symbol) [0x00925358]
+	(No symbol) [0x00941A9E]
+	(No symbol) [0x00940579]
+	(No symbol) [0x00970C55]
+	(No symbol) [0x0097093C]
+	(No symbol) [0x0096A536]
+	(No symbol) [0x009482DC]
+	(No symbol) [0x009493DD]
+	GetHandleVerifier [0x00CEAABD+2539405]
+	GetHandleVerifier [0x00D2A78F+2800735]
+	GetHandleVerifier [0x00D2456C+2775612]
+	GetHandleVerifier [0x00B151E0+616112]
+	(No symbol) [0x00A25F8C]
+	(No symbol) [0x00A22328]
+	(No symbol) [0x00A2240B]
+	(No symbol) [0x00A14FF7]
+	BaseThreadInitThunk [0x755AFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x770480CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7704809E+238]
+
+2025-03-20 11:14:34,410 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:14:34,412 - root - INFO - Initializing microphone...
+2025-03-20 11:14:34,412 - root - INFO - Voice recognition started
+2025-03-20 11:14:58,846 - root - INFO - Microphone initialized successfully
+2025-03-20 11:14:58,986 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:14:59,492 - root - INFO - Ready to listen
+2025-03-20 11:15:17,982 - root - INFO - Processing audio...
+2025-03-20 11:15:25,006 - root - INFO - Original: Открой YouTube
+2025-03-20 11:15:25,037 - root - INFO - Processed: открой youtube
+2025-03-20 11:15:25,068 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:15:25,114 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:15:25,254 - app.browser_manager - INFO - Using ChromeDriver at: G:\chromedriver\chromedriver.exe
+2025-03-20 11:15:31,320 - app.browser_manager - ERROR - Error opening browser: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 136.0.7077.0 with binary path G:\chrome\chromium.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6858FFE45+26629]
+	(No symbol) [0x00007FF685866010]
+	(No symbol) [0x00007FF6856F931A]
+	(No symbol) [0x00007FF68573D40D]
+	(No symbol) [0x00007FF68573C44B]
+	(No symbol) [0x00007FF68573655C]
+	(No symbol) [0x00007FF685731B2D]
+	(No symbol) [0x00007FF685785D0B]
+	(No symbol) [0x00007FF6857852E0]
+	(No symbol) [0x00007FF685777883]
+	(No symbol) [0x00007FF685740550]
+	(No symbol) [0x00007FF685741803]
+	GetHandleVerifier [0x00007FF685C572BD+3529853]
+	GetHandleVerifier [0x00007FF685C6DA22+3621858]
+	GetHandleVerifier [0x00007FF685C624D3+3575443]
+	GetHandleVerifier [0x00007FF6859CB77A+860474]
+	(No symbol) [0x00007FF68587088F]
+	(No symbol) [0x00007FF68586CBC4]
+	(No symbol) [0x00007FF68586CD66]
+	(No symbol) [0x00007FF68585C2C9]
+	BaseThreadInitThunk [0x00007FFFA4F07344+20]
+	RtlUserThreadStart [0x00007FFFA681CC91+33]
+
+2025-03-20 11:15:34,291 - root - INFO - Processing audio...
+2025-03-20 11:15:43,283 - root - INFO - Processing audio...
+2025-03-20 11:15:48,236 - root - INFO - Processing audio...
+2025-03-20 11:15:53,346 - root - INFO - Processing audio...
+2025-03-20 11:15:58,507 - root - INFO - Processing audio...
+2025-03-20 11:16:03,694 - root - INFO - Processing audio...
+2025-03-20 11:16:08,848 - root - INFO - Processing audio...
+2025-03-20 11:16:13,927 - root - INFO - Processing audio...
+2025-03-20 11:19:49,767 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:19:49,769 - root - INFO - Initializing microphone...
+2025-03-20 11:19:49,769 - root - INFO - Voice recognition started
+2025-03-20 11:20:18,123 - root - INFO - Microphone initialized successfully
+2025-03-20 11:20:18,309 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:20:18,819 - root - INFO - Ready to listen
+2025-03-20 11:20:22,705 - root - INFO - Processing audio...
+2025-03-20 11:20:25,742 - root - INFO - Original: макарчик Запускай
+2025-03-20 11:20:25,773 - root - INFO - Processed: макарчик запускай
+2025-03-20 11:20:25,804 - app.command_processor - INFO - Processing command: макарчик запускай
+2025-03-20 11:20:25,834 - app.command_processor - WARNING - Unknown command: макарчик запускай
+2025-03-20 11:20:34,687 - root - INFO - Processing audio...
+2025-03-20 11:20:36,726 - root - INFO - Original: Открой YouTube
+2025-03-20 11:20:36,756 - root - INFO - Processed: открой youtube
+2025-03-20 11:20:36,787 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:20:36,832 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:20:36,972 - app.browser_manager - INFO - Using ChromeDriver at: G:\chromedriver\chromedriver.exe
+2025-03-20 11:20:39,967 - app.browser_manager - ERROR - Error opening browser: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 136.0.7077.0 with binary path G:\chrome\chromium.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6858FFE45+26629]
+	(No symbol) [0x00007FF685866010]
+	(No symbol) [0x00007FF6856F931A]
+	(No symbol) [0x00007FF68573D40D]
+	(No symbol) [0x00007FF68573C44B]
+	(No symbol) [0x00007FF68573655C]
+	(No symbol) [0x00007FF685731B2D]
+	(No symbol) [0x00007FF685785D0B]
+	(No symbol) [0x00007FF6857852E0]
+	(No symbol) [0x00007FF685777883]
+	(No symbol) [0x00007FF685740550]
+	(No symbol) [0x00007FF685741803]
+	GetHandleVerifier [0x00007FF685C572BD+3529853]
+	GetHandleVerifier [0x00007FF685C6DA22+3621858]
+	GetHandleVerifier [0x00007FF685C624D3+3575443]
+	GetHandleVerifier [0x00007FF6859CB77A+860474]
+	(No symbol) [0x00007FF68587088F]
+	(No symbol) [0x00007FF68586CBC4]
+	(No symbol) [0x00007FF68586CD66]
+	(No symbol) [0x00007FF68585C2C9]
+	BaseThreadInitThunk [0x00007FFFA4F07344+20]
+	RtlUserThreadStart [0x00007FFFA681CC91+33]
+
+2025-03-20 11:20:42,543 - root - INFO - Processing audio...
+2025-03-20 11:20:48,288 - root - INFO - Processing audio...
+2025-03-20 11:20:55,325 - root - INFO - Processing audio...
+2025-03-20 11:21:02,868 - root - INFO - Processing audio...
+2025-03-20 11:22:26,415 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:22:26,419 - root - INFO - Initializing microphone...
+2025-03-20 11:22:26,419 - root - INFO - Voice recognition started
+2025-03-20 11:22:51,694 - root - INFO - Microphone initialized successfully
+2025-03-20 11:22:51,834 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:22:52,349 - root - INFO - Ready to listen
+2025-03-20 11:22:55,624 - root - INFO - Processing audio...
+2025-03-20 11:22:59,047 - root - INFO - Original: Открой YouTube
+2025-03-20 11:22:59,078 - root - INFO - Processed: открой youtube
+2025-03-20 11:22:59,109 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:22:59,154 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:22:59,217 - app.browser_manager - ERROR - ChromeDriver not found at: G:\chromedriver\chromedriver-win64chromedriver.exe
+2025-03-20 11:23:02,729 - root - INFO - Processing audio...
+2025-03-20 11:23:05,382 - root - INFO - Original: на камере решена следующий этап сре
+2025-03-20 11:23:05,413 - root - INFO - Processed: на камере решена следующий этап сре
+2025-03-20 11:23:05,444 - app.command_processor - INFO - Processing command: на камере решена следующий этап сре
+2025-03-20 11:23:05,475 - app.command_processor - WARNING - Unknown command: на камере решена следующий этап сре
+2025-03-20 11:23:08,801 - root - INFO - Processing audio...
+2025-03-20 11:23:12,017 - root - INFO - Original: из основных причин успеха всей операции стала True
+2025-03-20 11:23:12,048 - root - INFO - Processed: из основных причин успеха всей операции стала true
+2025-03-20 11:23:12,079 - app.command_processor - INFO - Processing command: из основных причин успеха всей операции стала true
+2025-03-20 11:23:12,110 - app.command_processor - WARNING - Unknown command: из основных причин успеха всей операции стала true
+2025-03-20 11:27:46,500 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:27:46,502 - root - INFO - Initializing microphone...
+2025-03-20 11:27:46,502 - root - INFO - Voice recognition started
+2025-03-20 11:28:12,956 - root - INFO - Microphone initialized successfully
+2025-03-20 11:28:13,080 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:28:13,586 - root - INFO - Ready to listen
+2025-03-20 11:28:18,045 - root - INFO - Processing audio...
+2025-03-20 11:28:21,487 - root - INFO - Original: Открой YouTube
+2025-03-20 11:28:21,518 - root - INFO - Processed: открой youtube
+2025-03-20 11:28:21,548 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:28:21,596 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:28:21,735 - app.browser_manager - INFO - Using ChromeDriver at: G:\chromedriver\chromedriver-win64\chromedriver.exe
+2025-03-20 11:28:23,665 - app.browser_manager - INFO - Browser opened successfully
+2025-03-20 11:28:42,478 - app.browser_manager - INFO - Opened URL: https://www.youtube.com
+2025-03-20 11:28:46,961 - root - INFO - Processing audio...
+2025-03-20 11:28:49,406 - root - INFO - Original: б****
+2025-03-20 11:28:49,437 - root - INFO - Processed: б
+2025-03-20 11:28:49,467 - app.command_processor - INFO - Processing command: б
+2025-03-20 11:28:49,498 - app.command_processor - WARNING - Unknown command: б
+2025-03-20 11:35:58,275 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:35:58,277 - root - INFO - Initializing microphone...
+2025-03-20 11:35:58,277 - root - INFO - Voice recognition started
+2025-03-20 11:36:21,649 - root - INFO - Microphone initialized successfully
+2025-03-20 11:36:21,774 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:36:22,279 - root - INFO - Ready to listen
+2025-03-20 11:36:23,469 - root - INFO - Processing audio...
+2025-03-20 11:38:06,747 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:38:06,749 - root - INFO - Initializing microphone...
+2025-03-20 11:38:06,749 - root - INFO - Voice recognition started
+2025-03-20 11:38:33,085 - root - INFO - Microphone initialized successfully
+2025-03-20 11:38:33,208 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:38:33,723 - root - INFO - Ready to listen
+2025-03-20 11:38:37,714 - root - INFO - Processing audio...
+2025-03-20 11:38:44,969 - root - INFO - Original: Открой YouTube
+2025-03-20 11:38:44,999 - root - INFO - Processed: открой youtube
+2025-03-20 11:38:45,030 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:38:45,076 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:38:45,215 - app.browser_manager - INFO - Using ChromeDriver at: G:\chromedriver\chromedriver-win64\chromedriver.exe
+2025-03-20 11:38:51,607 - app.browser_manager - INFO - Browser opened successfully
+2025-03-20 11:39:21,724 - app.browser_manager - ERROR - Error opening URL: Message: timeout: Timed out receiving message from renderer: 21.296
+  (Session info: chrome=136.0.7077.0)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67C963C25+77845]
+	GetHandleVerifier [0x00007FF67C963C80+77936]
+	(No symbol) [0x00007FF67C71913A]
+	(No symbol) [0x00007FF67C7065EC]
+	(No symbol) [0x00007FF67C7062DA]
+	(No symbol) [0x00007FF67C703F8A]
+	(No symbol) [0x00007FF67C70493F]
+	(No symbol) [0x00007FF67C71347E]
+	(No symbol) [0x00007FF67C7299A1]
+	(No symbol) [0x00007FF67C73094A]
+	(No symbol) [0x00007FF67C7050AD]
+	(No symbol) [0x00007FF67C7296D5]
+	(No symbol) [0x00007FF67C7BF68B]
+	(No symbol) [0x00007FF67C797063]
+	(No symbol) [0x00007FF67C7605D8]
+	(No symbol) [0x00007FF67C761343]
+	GetHandleVerifier [0x00007FF67CC10C5D+2883661]
+	GetHandleVerifier [0x00007FF67CC0B55E+2861390]
+	GetHandleVerifier [0x00007FF67CC28A43+2981427]
+	GetHandleVerifier [0x00007FF67C97ECFA+188650]
+	GetHandleVerifier [0x00007FF67C986F6F+222047]
+	GetHandleVerifier [0x00007FF67C96C324+112404]
+	GetHandleVerifier [0x00007FF67C96C4D2+112834]
+	GetHandleVerifier [0x00007FF67C952129+5401]
+	BaseThreadInitThunk [0x00007FFFA4F07344+20]
+	RtlUserThreadStart [0x00007FFFA681CC91+33]
+
+2025-03-20 11:39:23,471 - root - INFO - Processing audio...
+2025-03-20 11:39:31,348 - root - INFO - Processing audio...
+2025-03-20 11:39:36,695 - root - INFO - Processing audio...
+2025-03-20 11:47:44,142 - root - INFO - VoiceRecognizer initialized successfully
+2025-03-20 11:47:44,143 - root - INFO - Initializing microphone...
+2025-03-20 11:47:44,143 - root - INFO - Voice recognition started
+2025-03-20 11:48:10,776 - root - INFO - Microphone initialized successfully
+2025-03-20 11:48:10,932 - root - INFO - Adjusting for ambient noise...
+2025-03-20 11:48:11,443 - root - INFO - Ready to listen
+2025-03-20 11:48:14,161 - root - INFO - Processing audio...
+2025-03-20 11:48:16,605 - root - INFO - Original: у меня больше
+2025-03-20 11:48:16,635 - root - INFO - Processed: у меня больше
+2025-03-20 11:48:16,667 - app.command_processor - INFO - Processing command: у меня больше
+2025-03-20 11:48:16,698 - app.command_processor - WARNING - Unknown command: у меня больше
+2025-03-20 11:48:22,364 - root - INFO - Processing audio...
+2025-03-20 11:48:24,311 - root - INFO - Original: Открой YouTube
+2025-03-20 11:48:24,342 - root - INFO - Processed: открой youtube
+2025-03-20 11:48:24,373 - app.command_processor - INFO - Processing command: открой youtube
+2025-03-20 11:48:24,420 - app.browser_manager - INFO - Using Chromium at: G:\chrome\chromium.exe
+2025-03-20 11:48:24,559 - app.browser_manager - INFO - Using ChromeDriver at: G:\chromedriver\chromedriver-win64\chromedriver.exe
+2025-03-20 11:48:44,088 - app.browser_manager - INFO - Browser opened successfully
+2025-03-20 11:48:52,840 - app.browser_manager - INFO - Opened URL: https://www.youtube.com
+2025-03-20 11:49:21,770 - root - INFO - Processing audio...
+2025-03-20 11:49:56,445 - root - INFO - Processing audio...
+2025-03-20 11:50:00,005 - root - INFO - Processing audio...
+2025-03-20 11:50:06,800 - root - INFO - Processing audio...
+2025-03-20 11:50:12,272 - root - INFO - Processing audio...
+2025-03-20 11:50:35,505 - root - INFO - Processing audio...
