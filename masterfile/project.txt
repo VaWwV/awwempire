@@ -1,0 +1,33 @@
+/project
+│
+├── /app 
+│   ├── /__pycache__
+│   ├── /browser_control
+│   ├── /command_processing
+│   ├── /voice_recognition
+│   ├── __init__.py
+│   ├── browser_manager.py
+│   ├── command_processor.py
+│   ├── routes.py
+│   ├── youtube_manager.py
+│   ├── /web
+│   │   ├── /static
+│   │   │   ├── /sounds
+│   │   │   │   └── notification.mp3
+│   │   └── /frontend
+│   │       ├── app.py
+│   │       └── dockerfile
+│   └── /backend
+│       ├── dockerfile
+│       ├── package.json
+│       └── server.js
+│
+├── /templates
+│   └── index.html
+│
+├── /tests
+│   └── test_app.py
+│
+├── run.py
+└── requirements.txt
+└── docker-compose.yml

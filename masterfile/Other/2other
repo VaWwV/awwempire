@@ -1,0 +1,9 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import service
+
+from dophin_api.constans import path_to_drive
+def connect_dolphin(response_json, additional_options)
+    
+    port = str(response_json["automation"]["port"])
+
+    chrome_path = Service (path_to_driver)
